@@ -28,8 +28,8 @@ from jose import JWTError, jwt
 from typing import Optional
 
 # Load models (update paths to your actual .h5 files)
-binary_model = load_binary_model("C:\\Users\\ADMIN\\Desktop\\web app personality\\model 22\\binary_handwriting_classifier.h5")
-personality_model = load_personality_model("C:\\Users\\ADMIN\\Desktop\\web app personality\\model 22\\cnn_personality_model.h5")
+binary_model = load_binary_model("binary_handwriting_classifier.h5")
+personality_model = load_personality_model("cnn_personality_model.h5")
 
 app = FastAPI()
 
